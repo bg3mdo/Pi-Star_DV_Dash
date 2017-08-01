@@ -8,7 +8,7 @@ $lang = array (
   // Banner texts
   "digital_voice"               =>  "數字語音",
   "configuration"               =>  "設定",
-  "dashboard_for"               =>  "儀錶盤-",
+  "dashboard_for"               =>  "儀錶盤 -",
   "power_control"               =>  "電源控制",
   "software_updater"            =>  "軟體更新",
   // Banner links
@@ -122,6 +122,14 @@ $lang = array (
   "info"                        =>  "信息",
   "utot"                        =>  "用戶超時",  // Short for User Timeout
   "gtot"                        =>  "組超時",    // Short for Group Timeout
+  // Dashboard Front Page / Admin - Section Headders
+  "last_herd_list"              =>  "網關接收到的最近 20 個呼叫",
+  "local_tx_list"               =>  "來自本地的最近 20 個呼叫",
+  "active_starnet_groups"       =>  "激活 Starnet 組",
+  "active_starnet_members"      =>  "激活 Starnet 組成員",
+  "d-star_link_manager"         =>  "D-Star 連接管理器",
+  "d-star_link_status"          =>  "D-Star 連接信息",
+  "service_status"              =>  "服務狀態",
   // Dictionary End
   "nothing"                     =>  "nothing"
 );
