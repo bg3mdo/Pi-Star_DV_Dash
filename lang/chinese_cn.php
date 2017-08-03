@@ -13,8 +13,8 @@ $lang = array (
   // Banner links
   "dashboard"                   =>  "仪表盘",
   "admin"                       =>  "管理",
-  "power"                       =>  "电源控制",
-  "update"                      =>  "软件更新",
+  "power"                       =>  "电源",
+  "update"                      =>  "更新",
   "backup_restore"              =>  "备份/恢复",
   "factory_reset"               =>  "恢复出厂设置",
   "live_logs"                   =>  "日志",
