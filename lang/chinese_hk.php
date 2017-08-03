@@ -122,8 +122,8 @@ $lang = array (
   "utot"                        =>  "用户超時",     // Short for User Timeout
   "gtot"                        =>  "組超時",       // Short for Group Timeout
   // Dashboard Front Page / Admin - Section Headders
-  "last_heard_list"             =>  "最後20個來自網關的呼叫",
-  "local_tx_list"               =>  "最後20個來自本地的呼叫",
+  "last_heard_list"             =>  "網關上最後 20 個呼叫",
+  "local_tx_list"               =>  "最後 20 個本地呼叫",
   "active_starnet_groups"       =>  "激活 Starnet 組",
   "active_starnet_members"      =>  "激活 Starnet 組成員",
   "d-star_link_manager"         =>  "D-Star 連接管理器",
