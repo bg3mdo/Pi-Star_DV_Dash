@@ -1,27 +1,25 @@
 <?php
-// Chinese HK (traditional Chinese characters) Language Pack
-// Translated by BH7NJF, Email: bh7njf@gmail.com
+// Chinese HK (Traditional Chinese characters) Language Pack
+// Translated by Le Peng（BD7KLE）, Email: bd7kle@gmail.com
+//               Yuan Wang（BG3MDO）, Email: bg3mdo@gmail.com
 // Maintained by Yuan Wang（BG3MDO）, Email: bg3mdo@gmail.com 
-// Last update on 01/08/2017
+// Last update on 03/08/2017
 
 $lang = array (
   // Banner texts
   "digital_voice"               =>  "數字語音",
   "configuration"               =>  "設定",
   "dashboard_for"               =>  "儀錶盤 -",
-  "power_control"               =>  "電源控制",
-  "software_updater"            =>  "軟體更新",
   // Banner links
   "dashboard"                   =>  "儀錶盤",
   "admin"                       =>  "管理",
   "power"                       =>  "電源",
   "update"                      =>  "更新",
   "backup_restore"              =>  "備份/恢復",
-  "update_running"              =>  "更新运行"
   "factory_reset"               =>  "恢復出廠設定",
   "live_logs"                   =>  "日誌",
   // Config page section headdings
-  "hardware_info"               =>  "網關設備信息",
+  "hardware_info"               =>  "網關硬體信息",
   "control_software"            =>  "控制軟體",
   "mmdvmhost_config"            =>  "MMDVMHost 設定",
   "general_config"              =>  "常規設定",
@@ -37,7 +35,7 @@ $lang = array (
   "apply"                       =>  "應用設定",
   // Config Page - Gateway Hardware Information
   "hostname"                    =>  "主機名",
-  "kernel"                      =>  "內殼",
+  "kernel"                      =>  "內核",
   "platform"                    =>  "平臺",
   "cpu_load"                    =>  "CPU 負荷",
   "cpu_temp"                    =>  "CPU 溫度",
@@ -57,7 +55,7 @@ $lang = array (
   "radio_freq"                  =>  "電臺頻率",
   "lattitude"                   =>  "緯度",
   "longitude"                   =>  "經度",
-  "town"                        =>  "城市",
+  "town"                        =>  "區域",
   "country"                     =>  "國家",
   "url"                         =>  "URL",
   "radio_type"                  =>  "電臺/調製解調器類型",
@@ -89,15 +87,15 @@ $lang = array (
   "p25_startup_host"            =>  "P25 默認服務器",
   "p25_nac"                     =>  "P25 NAC",
   // Config Page - Firewall Configuration
-  "fw_dash"                     =>  "訪問儀錶盤",
+  "fw_dash"                     =>  "儀表盤訪問",
   "fw_irc"                      =>  "ircDDBGateway 遠程",
-  "fw_ssh"                      =>  "訪問SSH",
+  "fw_ssh"                      =>  "SSH訪問",
   // Config Page - Password
   "user"                        =>  "用戶名",
   "password"                    =>  "密碼",
-  "set_password"                =>  "設定密碼",
+  "set_password"                =>  "密碼設定",
   // Dashboard Front Page - Repeater Info Pannel
-  "modes_enabled"               =>  "模式啟動",
+  "modes_enabled"               =>  "啟用的模式",
   "net_status"                  =>  "網絡狀態",
   "internet"                    =>  "互聯網",
   "radio_info"                  =>  "電臺信息",
@@ -121,11 +119,11 @@ $lang = array (
   "group"                       =>  "組",
   "logoff"                      =>  "註銷",
   "info"                        =>  "信息",
-  "utot"                        =>  "用戶超時",  // Short for User Timeout
-  "gtot"                        =>  "組超時",    // Short for Group Timeout
+  "utot"                        =>  "用户超時",     // Short for User Timeout
+  "gtot"                        =>  "組超時",       // Short for Group Timeout
   // Dashboard Front Page / Admin - Section Headders
-  "last_herd_list"              =>  "網關接收到的最近 20 個呼叫",
-  "local_tx_list"               =>  "來自本地的最近 20 個呼叫",
+  "last_heard_list"             =>  "最後20個來自網關的呼叫",
+  "local_tx_list"               =>  "最後20個來自本地的呼叫",
   "active_starnet_groups"       =>  "激活 Starnet 組",
   "active_starnet_members"      =>  "激活 Starnet 組成員",
   "d-star_link_manager"         =>  "D-Star 連接管理器",
